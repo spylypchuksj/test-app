@@ -1,0 +1,27 @@
+{
+  "id": "app",
+  "name": "Ps_Test",
+  "startScreen": "app.login",
+  "screens": [
+    {
+      "id": "login",
+      "name": "Login",
+      "sourceAppId": "_blank",
+      "sourceScreenId": "app.login"
+    },
+    {
+      "id": "menu",
+      "name": "menu",
+      "sourceAppId": "_blank",
+      "sourceScreenId": "app.menu"
+    },
+    {
+      "id": "multiselect",
+      "name": "multiselect",
+      "sourceAppId": "_blank",
+      "sourceScreenId": "app.multiselect"
+    }
+  ],
+  "sourceAppId": "_blank",
+  "sourceScreenId": "app"
+}
