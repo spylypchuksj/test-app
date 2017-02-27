@@ -1,14 +1,8 @@
 {
   "id": "app",
   "name": "Ps_Test",
-  "startScreen": "app.login",
+  "startScreen": null,
   "screens": [
-    {
-      "id": "login",
-      "name": "Login",
-      "sourceAppId": "_blank",
-      "sourceScreenId": "app.login"
-    },
     {
       "id": "menu",
       "name": "menu",
