@@ -1,0 +1,45 @@
+<ion-view data-comp-id="ionic-view.1">
+    <ion-content class=" stable-bg" data-comp-id="ionic-content.1">
+        <div data-comp-id="div.1" style="margin: 4% 5%;">
+            <div class="row" data-comp-id="row.1">
+                <div class="col text-center" data-comp-id="column.1"
+                    style="padding: 40px 0px 20px;"><img data-comp-id="image.1" data-img="" ng-src="images/Placeholder-Img.png"
+                    style="width: 30%;">
+                    <div data-comp-id="text.1"
+                        style="font-size: 16px; line-height: 30px; font-weight: 300;">Tagline goes here</div>
+                </div>
+            </div>
+        </div>
+        <!--Form Contents-->
+        <div data-comp-id="div.2" style="width: 80%; margin: 2% 10%;">
+            <!--User Input-->
+            <div class="row" data-comp-id="row.2">
+                <div class="col" data-comp-id="column.2">
+                    <label class="item item-input" data-comp-id="textInput.1">
+                        <span class="input-label">Username</span>
+                        <input ng-model="data.username" type="text">
+                    </label>
+                </div>
+            </div>
+            <!--User Input-->
+            <!--User Input-->
+            <div class="row" data-comp-id="row.3" style="margin: 2% 0% 0%;">
+                <div class="col" data-comp-id="column.3" style="padding: 5px;">
+                    <label class="item item-input" data-comp-id="textInput.2">
+                        <span class="input-label">Password</span>
+                        <input ng-model="data.password" type="text">
+                    </label>
+                </div>
+            </div>
+            <!--User Input-->
+            <div class="row" data-comp-id="row.4" style="margin: 5% 0%;">
+                <div class="col" data-comp-id="column.4">
+                    <button class="button button-block button-positive" data-comp-id="button.1"
+                        ng-click="app.call('login.submit')"
+                        style="border-color: rgba(255, 255, 255, 0);">Login</button>
+                </div>
+            </div>
+        </div>
+        <!--Form Contents-->
+    </ion-content>
+</ion-view>
