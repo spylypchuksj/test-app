@@ -6,12 +6,12 @@ angular.module('app').config(function ($stateProvider) {
         templateProvider: function (app) {
             return app.templateProvider('app');
         }
-    }).state('app.menu', {
+    }).state('app.loginclassic', {
         views: {
             app: {
-                controller: 'app_menu',
+                controller: 'app_loginclassic',
                 templateProvider: function (app) {
-                    return app.templateProvider('app.menu');
+                    return app.templateProvider('app.loginclassic');
                 }
             }
         }
@@ -24,12 +24,12 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
-    }).state('app.loginclassic', {
+    }).state('app.menu', {
         views: {
             app: {
-                controller: 'app_loginclassic',
+                controller: 'app_menu',
                 templateProvider: function (app) {
-                    return app.templateProvider('app.loginclassic');
+                    return app.templateProvider('app.menu');
                 }
             }
         }

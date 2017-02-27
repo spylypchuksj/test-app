@@ -4,10 +4,11 @@
   "startScreen": null,
   "screens": [
     {
-      "id": "menu",
-      "name": "menu",
-      "sourceAppId": "_blank",
-      "sourceScreenId": "app.menu"
+      "id": "loginclassic",
+      "name": "Login-Classic",
+      "model": "login",
+      "sourceScreenId": "app.login.loginclassic",
+      "sourceAppId": "powwow"
     },
     {
       "id": "multiselect",
@@ -16,11 +17,10 @@
       "sourceScreenId": "app.multiselect"
     },
     {
-      "id": "loginclassic",
-      "name": "Login-Classic",
-      "model": "login",
-      "sourceScreenId": "app.login.loginclassic",
-      "sourceAppId": "powwow"
+      "id": "menu",
+      "name": "menu",
+      "sourceAppId": "_blank",
+      "sourceScreenId": "app.menu"
     }
   ],
   "sourceAppId": "_blank",
