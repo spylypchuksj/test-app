@@ -52,6 +52,9 @@
           }
         },
         "label": "ListItems"
+      },
+      "srt": {
+        "type": "string"
       }
     }
   }
