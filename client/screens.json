@@ -1,7 +1,7 @@
 {
   "id": "app",
   "name": "Ps_Test",
-  "startScreen": null,
+  "startScreen": "app.loginclassic",
   "screens": [
     {
       "id": "loginclassic",
