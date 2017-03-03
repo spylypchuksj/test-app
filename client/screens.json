@@ -21,6 +21,13 @@
       "name": "menu",
       "sourceAppId": "_blank",
       "sourceScreenId": "app.menu"
+    },
+    {
+      "id": "testlist",
+      "name": "test list",
+      "model": "listview",
+      "sourceScreenId": "app.listview.listviewcool",
+      "sourceAppId": "powwow"
     }
   ],
   "sourceAppId": "_blank",
