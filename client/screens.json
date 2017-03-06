@@ -4,13 +4,6 @@
   "startScreen": "app.loginclassic",
   "screens": [
     {
-      "id": "loginclassic",
-      "name": "Login-Classic",
-      "model": "login",
-      "sourceScreenId": "app.login.loginclassic",
-      "sourceAppId": "powwow"
-    },
-    {
       "id": "multiselect",
       "name": "multiselect",
       "sourceAppId": "_blank",
@@ -27,6 +20,13 @@
       "name": "test list",
       "model": "listview",
       "sourceScreenId": "app.listview.listviewcool",
+      "sourceAppId": "powwow"
+    },
+    {
+      "id": "loginclassic",
+      "name": "Login-Classic",
+      "model": "login",
+      "sourceScreenId": "app.login.loginclassic",
       "sourceAppId": "powwow"
     }
   ],

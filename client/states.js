@@ -6,15 +6,6 @@ angular.module('app').config(function ($stateProvider) {
         templateProvider: function (app) {
             return app.templateProvider('app');
         }
-    }).state('app.loginclassic', {
-        views: {
-            app: {
-                controller: 'app_loginclassic',
-                templateProvider: function (app) {
-                    return app.templateProvider('app.loginclassic');
-                }
-            }
-        }
     }).state('app.multiselect', {
         views: {
             app: {
@@ -39,6 +30,15 @@ angular.module('app').config(function ($stateProvider) {
                 controller: 'app_testlist',
                 templateProvider: function (app) {
                     return app.templateProvider('app.testlist');
+                }
+            }
+        }
+    }).state('app.loginclassic', {
+        views: {
+            app: {
+                controller: 'app_loginclassic',
+                templateProvider: function (app) {
+                    return app.templateProvider('app.loginclassic');
                 }
             }
         }

@@ -41,6 +41,5 @@
             </div>
         </div>
         <!--Form Contents-->
-        <i class="icon ion-information-circled" data-comp-id="icon.1"></i>
-    </ion-content>
+        <img data-comp-id="image.2" data-img="" ng-src="images/default.png"></ion-content>
 </ion-view>
