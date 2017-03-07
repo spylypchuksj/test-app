@@ -41,7 +41,8 @@
         },
         {
           "id": "page",
-          "name": "page"
+          "name": "page",
+          "model": "test"
         }
       ]
     }
