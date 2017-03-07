@@ -33,7 +33,12 @@
       "id": "test_folder",
       "name": "<test_folder>",
       "folder": true,
-      "screens": []
+      "screens": [
+        {
+          "id": "test_screen",
+          "name": "<test_screen>"
+        }
+      ]
     }
   ],
   "sourceAppId": "_blank",
