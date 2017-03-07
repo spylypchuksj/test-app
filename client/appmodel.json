@@ -71,12 +71,6 @@
     "type": "object",
     "comment": "test",
     "properties": {
-      "str1": {
-        "type": "array",
-        "items": {
-          "type": "string"
-        }
-      },
       "str2": {
         "type": "string"
       },
