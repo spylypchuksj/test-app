@@ -38,6 +38,10 @@
         {
           "id": "test",
           "name": "test"
+        },
+        {
+          "id": "page",
+          "name": "page"
         }
       ]
     }
