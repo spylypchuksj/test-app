@@ -34,18 +34,7 @@
       "id": "test_folder",
       "name": "<test_folder>",
       "folder": true,
-      "screens": [
-        {
-          "id": "test",
-          "name": "test",
-          "model": "test"
-        },
-        {
-          "id": "page",
-          "name": "page",
-          "model": "test"
-        }
-      ]
+      "screens": []
     }
   ],
   "sourceAppId": "_blank",
