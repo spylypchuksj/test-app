@@ -13,7 +13,8 @@
       "id": "menu",
       "name": "menu",
       "sourceAppId": "_blank",
-      "sourceScreenId": "app.menu"
+      "sourceScreenId": "app.menu",
+      "model": "menu"
     },
     {
       "id": "testlist",
