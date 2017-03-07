@@ -70,6 +70,10 @@
   "test": {
     "type": "object",
     "comment": "test",
-    "properties": {}
+    "properties": {
+      "str": {
+        "type": "string"
+      }
+    }
   }
 }
