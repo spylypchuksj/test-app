@@ -66,5 +66,31 @@
         "type": "string"
       }
     }
+  },
+  "test": {
+    "type": "object",
+    "comment": "test",
+    "properties": {
+      "tes": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "tew": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "test": {
+              "type": "string"
+            },
+            "tes3": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
   }
 }
