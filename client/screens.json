@@ -28,6 +28,12 @@
       "model": "login",
       "sourceScreenId": "app.login.loginclassic",
       "sourceAppId": "powwow"
+    },
+    {
+      "id": "test_folder",
+      "name": "<test_folder>",
+      "folder": true,
+      "screens": []
     }
   ],
   "sourceAppId": "_blank",
