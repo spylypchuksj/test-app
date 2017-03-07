@@ -71,7 +71,7 @@
     "type": "object",
     "comment": "test",
     "properties": {
-      "str22": {
+      "str1": {
         "type": "string"
       }
     }
