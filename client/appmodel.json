@@ -57,5 +57,10 @@
         "type": "string"
       }
     }
+  },
+  "menu": {
+    "type": "object",
+    "comment": "menu",
+    "properties": {}
   }
 }
