@@ -37,7 +37,8 @@
       "screens": [
         {
           "id": "test",
-          "name": "test"
+          "name": "test",
+          "model": "test"
         },
         {
           "id": "page",
