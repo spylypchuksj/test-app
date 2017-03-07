@@ -42,5 +42,14 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
+    }).state('app.test_folder/test', {
+        views: {
+            app: {
+                controller: 'app_test_folder_test',
+                templateProvider: function (app) {
+                    return app.templateProvider('app.test_folder.test');
+                }
+            }
+        }
     });
 });
