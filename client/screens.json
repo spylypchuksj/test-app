@@ -4,17 +4,17 @@
   "startScreen": "app.loginclassic",
   "screens": [
     {
-      "id": "multiselect",
-      "name": "multiselect",
-      "sourceAppId": "_blank",
-      "sourceScreenId": "app.multiselect"
-    },
-    {
       "id": "loginclassic",
       "name": "Login-Classic",
       "model": "login",
       "sourceScreenId": "app.login.loginclassic",
       "sourceAppId": "powwow"
+    },
+    {
+      "id": "multiselect",
+      "name": "multiselect",
+      "sourceAppId": "_blank",
+      "sourceScreenId": "app.multiselect"
     },
     {
       "id": "menu",
