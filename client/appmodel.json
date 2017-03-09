@@ -97,6 +97,10 @@
   "testscreen": {
     "type": "object",
     "comment": "",
-    "properties": {}
+    "properties": {
+      "string": {
+        "type": "string"
+      }
+    }
   }
 }
