@@ -93,14 +93,5 @@
         "label": "Description"
       }
     }
-  },
-  "testscreen": {
-    "type": "object",
-    "comment": "",
-    "properties": {
-      "string": {
-        "type": "string"
-      }
-    }
   }
 }
