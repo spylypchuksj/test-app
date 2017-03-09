@@ -75,5 +75,23 @@
         "type": "string"
       }
     }
+  },
+  "detailsview": {
+    "type": "object",
+    "comment": "DetailsView",
+    "properties": {
+      "Title": {
+        "type": "string",
+        "label": "Title"
+      },
+      "DescriptShort": {
+        "type": "string",
+        "label": "DescriptShort"
+      },
+      "Description": {
+        "type": "string",
+        "label": "Description"
+      }
+    }
   }
 }

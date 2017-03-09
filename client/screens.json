@@ -34,7 +34,15 @@
       "id": "test",
       "name": "test",
       "folder": true,
-      "screens": []
+      "screens": [
+        {
+          "id": "testscreen",
+          "name": "testscreen",
+          "model": "detailsview",
+          "sourceScreenId": "app.detailsview.detailsviewcool",
+          "sourceAppId": "powwow"
+        }
+      ]
     }
   ],
   "sourceAppId": "_blank",
