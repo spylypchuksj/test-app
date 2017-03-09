@@ -7,7 +7,8 @@
       "id": "multiselect",
       "name": "multiselect",
       "sourceAppId": "_blank",
-      "sourceScreenId": "app.multiselect"
+      "sourceScreenId": "app.multiselect",
+      "model": "testscreen"
     },
     {
       "id": "menu",
