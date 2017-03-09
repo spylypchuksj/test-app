@@ -10,6 +10,13 @@
       "sourceScreenId": "app.multiselect"
     },
     {
+      "id": "loginclassic",
+      "name": "Login-Classic",
+      "model": "login",
+      "sourceScreenId": "app.login.loginclassic",
+      "sourceAppId": "powwow"
+    },
+    {
       "id": "menu",
       "name": "menu",
       "sourceAppId": "_blank",
@@ -21,13 +28,6 @@
       "name": "test list",
       "model": "listview",
       "sourceScreenId": "app.listview.listviewcool",
-      "sourceAppId": "powwow"
-    },
-    {
-      "id": "loginclassic",
-      "name": "Login-Classic",
-      "model": "login",
-      "sourceScreenId": "app.login.loginclassic",
       "sourceAppId": "powwow"
     },
     {
