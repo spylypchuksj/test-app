@@ -62,7 +62,7 @@
     "type": "object",
     "comment": "menu",
     "properties": {
-      "str": {
+      "str1": {
         "type": "string"
       }
     }
