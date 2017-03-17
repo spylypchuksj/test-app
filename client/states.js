@@ -69,14 +69,5 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
-    }).state('app.qwertqwertyuiuytrewqwertyuytrewqertyuytrewqwertyuytrewertyuytrewertyuiuytrertyuioiuytrertyuioiuytrertyuioiuytrertyuiouytrertyuiuytrertyuiuytrertyuiuytrertyuiuytr6667', {
-        views: {
-            app: {
-                controller: 'app_qwertqwertyuiuytrewqwertyuytrewqertyuytrewqwertyuytrewertyuytrewertyuiuytrertyuioiuytrertyuioiuytrertyuioiuytrertyuiouytrertyuiuytrertyuiuytrertyuiuytrertyuiuytr6667',
-                templateProvider: function (app) {
-                    return app.templateProvider('app.qwertqwertyuiuytrewqwertyuytrewqertyuytrewqwertyuytrewertyuytrewertyuiuytrertyuioiuytrertyuioiuytrertyuioiuytrertyuiouytrertyuiuytrertyuiuytrertyuiuytrertyuiuytr6667');
-                }
-            }
-        }
     });
 });
