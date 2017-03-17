@@ -47,10 +47,6 @@
           "name": "sptest"
         }
       ]
-    },
-    {
-      "id": "screen",
-      "name": "Screen"
     }
   ],
   "sourceAppId": "_blank",
