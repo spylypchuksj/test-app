@@ -41,6 +41,10 @@
           "model": "detailsview",
           "sourceScreenId": "app.detailsview.detailsviewcool",
           "sourceAppId": "powwow"
+        },
+        {
+          "id": "sptest",
+          "name": "sptest"
         }
       ]
     }
