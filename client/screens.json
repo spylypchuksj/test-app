@@ -45,6 +45,10 @@
         {
           "id": "sptest",
           "name": "sptest"
+        },
+        {
+          "id": "screen",
+          "name": "screen"
         }
       ]
     }

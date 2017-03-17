@@ -60,5 +60,14 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
+    }).state('app.test/screen', {
+        views: {
+            app: {
+                controller: 'app_test_screen',
+                templateProvider: function (app) {
+                    return app.templateProvider('app.test.screen');
+                }
+            }
+        }
     });
 });
