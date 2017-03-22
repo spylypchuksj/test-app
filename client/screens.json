@@ -51,6 +51,11 @@
           "name": "screen"
         }
       ]
+    },
+    {
+      "id": "screen",
+      "name": "screen",
+      "model": "sp_aptest"
     }
   ],
   "sourceAppId": "_blank",

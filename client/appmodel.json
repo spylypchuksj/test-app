@@ -93,5 +93,9 @@
         "label": "Description"
       }
     }
+  },
+  "sp_aptest": {
+    "type": "object",
+    "properties": {}
   }
 }
