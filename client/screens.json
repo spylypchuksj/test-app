@@ -56,6 +56,12 @@
       "id": "screen",
       "name": "screen",
       "model": "sp_aptest"
+    },
+    {
+      "id": "new",
+      "name": "new",
+      "folder": true,
+      "screens": []
     }
   ],
   "sourceAppId": "_blank",
