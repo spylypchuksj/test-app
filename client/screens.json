@@ -61,15 +61,7 @@
       "id": "new",
       "name": "new",
       "folder": true,
-      "screens": [
-        {
-          "id": "listviewclassic",
-          "name": "ListView-Classic",
-          "model": "listviewclassic",
-          "sourceScreenId": "app.listview.listviewclassic",
-          "sourceAppId": "powwow"
-        }
-      ]
+      "screens": []
     }
   ],
   "sourceAppId": "_blank",
