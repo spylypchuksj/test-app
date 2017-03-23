@@ -58,8 +58,8 @@
       "model": "sp_aptest"
     },
     {
-      "id": "new",
-      "name": "new",
+      "id": "newtest",
+      "name": "newtest",
       "folder": true,
       "screens": []
     }
