@@ -62,6 +62,13 @@
       "name": "newtest",
       "folder": true,
       "screens": []
+    },
+    {
+      "id": "postsclassic",
+      "name": "Posts-Classic",
+      "model": "postsclassic",
+      "sourceScreenId": "app.postsnews.postsclassic",
+      "sourceAppId": "powwow"
     }
   ],
   "sourceAppId": "_blank",

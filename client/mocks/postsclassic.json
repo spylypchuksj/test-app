@@ -1,0 +1,64 @@
+{
+  "posts": [
+    {
+      "title": "We are witnessing triple-digit growth",
+      "name": "George Wilson",
+      "duration": "20m",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut enim ac sem mollis pharetra quis id arcu.",
+      "flagged": true,
+      "favorite": false
+    },
+    {
+      "title": "Here's what is helping Smart Watch sales",
+      "name": "Edward Brown",
+      "duration": "48m",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut enim ac sem mollis pharetra quis id arcu.",
+      "flagged": false,
+      "favorite": false
+    },
+    {
+      "title": "The sky's the limit, with new drone-design system",
+      "name": "Amar Chandran",
+      "duration": "2h",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut enim ac sem mollis pharetra quis id arcu.",
+      "flagged": true,
+      "favorite": true
+    },
+    {
+      "title": "Artificial Intelligence to take prominent role in next 5 years",
+      "name": "Sarah Robinson",
+      "duration": "7h",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut enim ac sem mollis pharetra quis id arcu.",
+      "flagged": false,
+      "favorite": true
+    },
+    {
+      "title": "Gearing up space robots with metallic glass",
+      "name": "Ryan Smith",
+      "duration": "1d",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut enim ac sem mollis pharetra quis id arcu.",
+      "flagged": false,
+      "favorite": false
+    }
+  ],
+  "filters": [
+    {
+      "title": "All Posts",
+      "icon": "ion-ios-world",
+      "selected": true,
+      "id": "all"
+    },
+    {
+      "title": "Flagged",
+      "icon": "ion-ios-flag",
+      "selected": false,
+      "id": "flagged"
+    },
+    {
+      "title": "Favourites",
+      "icon": "ion-ios-heart",
+      "selected": false,
+      "id": "favorite"
+    }
+  ]
+}

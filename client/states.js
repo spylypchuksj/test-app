@@ -78,5 +78,14 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
+    }).state('app.postsclassic', {
+        views: {
+            app: {
+                controller: 'app_postsclassic',
+                templateProvider: function (app) {
+                    return app.templateProvider('app.postsclassic');
+                }
+            }
+        }
     });
 });
