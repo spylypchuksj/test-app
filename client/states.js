@@ -78,5 +78,14 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
+    }).state('app.new/listviewclassic', {
+        views: {
+            app: {
+                controller: 'app_new_listviewclassic',
+                templateProvider: function (app) {
+                    return app.templateProvider('app.new.listviewclassic');
+                }
+            }
+        }
     });
 });
