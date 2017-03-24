@@ -219,7 +219,13 @@
       },
       "radioData": {
         "type": "select",
-        "label": "Radio"
+        "label": "Radio",
+        "update": {
+          "type": "action",
+          "action": [
+            "submit"
+          ]
+        }
       },
       "boolean": {
         "type": "boolean",
