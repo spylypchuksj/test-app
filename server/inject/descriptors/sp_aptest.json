@@ -3,11 +3,6 @@
   "properties": {
     "test": {
       "type": "string"
-    },
-    "data": {
-      "type": "string",
-      "selector": "img",
-      "control": "attrib.src"
     }
   },
   "connect": []
