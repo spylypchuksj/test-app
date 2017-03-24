@@ -94,14 +94,6 @@
       }
     }
   },
-  "sp_aptest": {
-    "type": "object",
-    "properties": {
-      "test": {
-        "type": "string"
-      }
-    }
-  },
   "postsclassic": {
     "type": "object",
     "comment": "Posts",
