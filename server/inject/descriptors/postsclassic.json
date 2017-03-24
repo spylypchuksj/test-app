@@ -1,0 +1,66 @@
+{
+  "type": "object",
+  "comment": "Posts",
+  "properties": {
+    "posts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "posttitle": {
+            "type": "string",
+            "label": "posttitle"
+          },
+          "reportedbyname": {
+            "type": "string",
+            "label": "reportedbyname"
+          },
+          "reportedduration": {
+            "type": "string",
+            "label": "reportedduration"
+          },
+          "postdetails": {
+            "type": "string",
+            "label": "postdetails"
+          },
+          "flagged": {
+            "type": "boolean",
+            "label": "Flagged"
+          },
+          "favorite": {
+            "type": "boolean",
+            "label": "Favorite"
+          }
+        }
+      },
+      "label": "postsscreendata"
+    },
+    "filters": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "selected": {
+            "type": "boolean"
+          },
+          "tap": {
+            "type": "action"
+          },
+          "icon": {
+            "type": "string"
+          },
+          "id": {
+            "type": "string"
+          }
+        }
+      },
+      "update": {
+        "type": "none"
+      }
+    }
+  },
+  "connect": []
+}

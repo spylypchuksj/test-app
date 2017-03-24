@@ -1,3 +1,7 @@
 [
-  "sp_aptest.json"
+  "sp_aptest.json",
+  "formlargeclassic.json",
+  "postsclassic.json",
+  "listview.json",
+  "login.json"
 ]

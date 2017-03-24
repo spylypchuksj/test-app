@@ -1,0 +1,31 @@
+{
+  "type": "object",
+  "comment": "TableView",
+  "properties": {
+    "ListItems": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "ListItemName": {
+            "type": "string",
+            "label": "ListItemName"
+          },
+          "description": {
+            "type": "string",
+            "label": "description"
+          },
+          "DateTime": {
+            "type": "string",
+            "label": "Date - Time"
+          }
+        }
+      },
+      "label": "ListItems"
+    },
+    "srt": {
+      "type": "string"
+    }
+  },
+  "connect": []
+}
