@@ -1,5 +1,9 @@
 {
   "type": "object",
-  "properties": {},
+  "properties": {
+    "test": {
+      "type": "string"
+    }
+  },
   "connect": []
 }
