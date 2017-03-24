@@ -69,6 +69,13 @@
       "model": "postsclassic",
       "sourceScreenId": "app.postsnews.postsclassic",
       "sourceAppId": "powwow"
+    },
+    {
+      "id": "formlargeclassic",
+      "name": "FormLarge-Classic",
+      "sourceScreenId": "app.formlarge.formlargeclassic",
+      "sourceAppId": "powwow",
+      "model": "formlargeclassic"
     }
   ],
   "sourceAppId": "_blank",
