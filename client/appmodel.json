@@ -96,7 +96,11 @@
   },
   "sp_aptest": {
     "type": "object",
-    "properties": {}
+    "properties": {
+      "test": {
+        "type": "string"
+      }
+    }
   },
   "postsclassic": {
     "type": "object",
