@@ -1,5 +1,11 @@
 {
   "type": "object",
-  "properties": {},
+  "properties": {
+    "data": {
+      "type": "string",
+      "selector": "img",
+      "control": "attrib.src"
+    }
+  },
   "connect": []
 }
