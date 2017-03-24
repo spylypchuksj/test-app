@@ -1,11 +1,5 @@
 {
   "type": "object",
-  "properties": {
-    "datta": {
-      "type": "string",
-      "selector": "img",
-      "control": "attrib.src"
-    }
-  },
+  "properties": {},
   "connect": []
 }
