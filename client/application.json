@@ -1,13 +1,7 @@
 {
-  "name": "Ps_Test",
+  "name": "SpMyApp",
   "defaultLayout": "phone-portrait",
   "sideMenu": true,
-  "previewToken": "57a14dae",
-  "uiCommonVersion": "0.15.11",
-  "id": "test-app",
-  "previewImageURL": "http://localhost:5000/apps/57a14dae-test-app/images/previews/.png",
-  "isBuiltInTemplate": false,
-  "isVersioned": true,
-  "isClonedForUser": true,
-  "pathToRepo": "/home/spylypchuk/PowWow/PowwowDesigner/dataStore/users/admin/test-app"
+  "previewToken": "5130aa40",
+  "uiCommonVersion": "5.0.1"
 }

@@ -1,80 +1,25 @@
 {
   "id": "app",
-  "name": "Ps_Test",
-  "startScreen": "app.loginclassic",
+  "name": "SpMyApp",
+  "startScreen": "app.blank",
   "screens": [
     {
-      "id": "loginclassic",
-      "name": "Login-Classic",
-      "model": "login",
-      "sourceScreenId": "app.login.loginclassic",
-      "sourceAppId": "powwow"
+      "id": "blank",
+      "name": "BLANK",
+      "sourceAppId": "_blank",
+      "sourceScreenId": "app.blank"
+    },
+    {
+      "id": "menu",
+      "name": "menu",
+      "sourceAppId": "_blank",
+      "sourceScreenId": "app.menu"
     },
     {
       "id": "multiselect",
       "name": "multiselect",
       "sourceAppId": "_blank",
       "sourceScreenId": "app.multiselect"
-    },
-    {
-      "id": "menu",
-      "name": "menu",
-      "sourceAppId": "_blank",
-      "sourceScreenId": "app.menu",
-      "model": "menu"
-    },
-    {
-      "id": "testlist",
-      "name": "test list",
-      "model": "listview",
-      "sourceScreenId": "app.listview.listviewcool",
-      "sourceAppId": "powwow"
-    },
-    {
-      "id": "test",
-      "name": "test",
-      "folder": true,
-      "screens": [
-        {
-          "id": "testscreen",
-          "name": "testscreen",
-          "model": "detailsview",
-          "sourceScreenId": "app.detailsview.detailsviewcool",
-          "sourceAppId": "powwow"
-        },
-        {
-          "id": "sptest",
-          "name": "sptest"
-        },
-        {
-          "id": "screen",
-          "name": "screen"
-        }
-      ]
-    },
-    {
-      "id": "screen",
-      "name": "screen"
-    },
-    {
-      "id": "newtest",
-      "name": "newtest",
-      "folder": true,
-      "screens": []
-    },
-    {
-      "id": "postsclassic",
-      "name": "Posts-Classic",
-      "model": "postsclassic",
-      "sourceScreenId": "app.postsnews.postsclassic",
-      "sourceAppId": "powwow"
-    },
-    {
-      "id": "formlargeclassic",
-      "name": "FormLarge-Classic",
-      "sourceScreenId": "app.formlarge.formlargeclassic",
-      "sourceAppId": "powwow",
-      "model": "formlargeclassic"
     }
   ],
   "sourceAppId": "_blank",

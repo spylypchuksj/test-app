@@ -6,21 +6,12 @@ angular.module('app').config(function ($stateProvider) {
         templateProvider: function (app) {
             return app.templateProvider('app');
         }
-    }).state('app.loginclassic', {
+    }).state('app.blank', {
         views: {
             app: {
-                controller: 'app_loginclassic',
+                controller: 'app_blank',
                 templateProvider: function (app) {
-                    return app.templateProvider('app.loginclassic');
-                }
-            }
-        }
-    }).state('app.multiselect', {
-        views: {
-            app: {
-                controller: 'app_multiselect',
-                templateProvider: function (app) {
-                    return app.templateProvider('app.multiselect');
+                    return app.templateProvider('app.blank');
                 }
             }
         }
@@ -33,66 +24,12 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
-    }).state('app.testlist', {
+    }).state('app.multiselect', {
         views: {
             app: {
-                controller: 'app_testlist',
+                controller: 'app_multiselect',
                 templateProvider: function (app) {
-                    return app.templateProvider('app.testlist');
-                }
-            }
-        }
-    }).state('app.test/testscreen', {
-        views: {
-            app: {
-                controller: 'app_test_testscreen',
-                templateProvider: function (app) {
-                    return app.templateProvider('app.test.testscreen');
-                }
-            }
-        }
-    }).state('app.test/sptest', {
-        views: {
-            app: {
-                controller: 'app_test_sptest',
-                templateProvider: function (app) {
-                    return app.templateProvider('app.test.sptest');
-                }
-            }
-        }
-    }).state('app.test/screen', {
-        views: {
-            app: {
-                controller: 'app_test_screen',
-                templateProvider: function (app) {
-                    return app.templateProvider('app.test.screen');
-                }
-            }
-        }
-    }).state('app.screen', {
-        views: {
-            app: {
-                controller: 'app_screen',
-                templateProvider: function (app) {
-                    return app.templateProvider('app.screen');
-                }
-            }
-        }
-    }).state('app.postsclassic', {
-        views: {
-            app: {
-                controller: 'app_postsclassic',
-                templateProvider: function (app) {
-                    return app.templateProvider('app.postsclassic');
-                }
-            }
-        }
-    }).state('app.formlargeclassic', {
-        views: {
-            app: {
-                controller: 'app_formlargeclassic',
-                templateProvider: function (app) {
-                    return app.templateProvider('app.formlargeclassic');
+                    return app.templateProvider('app.multiselect');
                 }
             }
         }
