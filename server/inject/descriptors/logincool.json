@@ -41,12 +41,5 @@
       }
     }
   },
-  "connect": [
-    {
-      "match": [],
-      "screens": [
-        "logincool"
-      ]
-    }
-  ]
+  "connect": []
 }
