@@ -1,11 +1,11 @@
 {
   "id": "app",
   "name": "SpMyApp",
-  "startScreen": "app.blank",
+  "startScreen": "app.blanktest",
   "screens": [
     {
-      "id": "blank",
-      "name": "BLANK",
+      "id": "blanktest",
+      "name": "BLANKtest",
       "sourceAppId": "_blank",
       "sourceScreenId": "app.blank"
     },
