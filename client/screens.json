@@ -27,6 +27,13 @@
       "sourceScreenId": "app.login.logincool",
       "sourceAppId": "powwow",
       "model": "logincool"
+    },
+    {
+      "id": "screen",
+      "name": "screen",
+      "sourceScreenId": "app.blank",
+      "sourceAppId": "_blank",
+      "model": "test"
     }
   ],
   "sourceAppId": "_blank",
