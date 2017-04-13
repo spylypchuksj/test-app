@@ -34,6 +34,13 @@
       "sourceScreenId": "app.blank",
       "sourceAppId": "_blank",
       "model": "test"
+    },
+    {
+      "id": "messagesconfident",
+      "name": "Messages-Confident",
+      "sourceScreenId": "app.messagesinbox.messagesconfident",
+      "sourceAppId": "universaltemplates",
+      "model": "messagesconfident"
     }
   ],
   "sourceAppId": "_blank",
