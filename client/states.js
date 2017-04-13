@@ -51,12 +51,12 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
-    }).state('app.messagesconfident', {
+    }).state('app.messages', {
         views: {
             app: {
-                controller: 'app_messagesconfident',
+                controller: 'app_messages',
                 templateProvider: function (app) {
-                    return app.templateProvider('app.messagesconfident');
+                    return app.templateProvider('app.messages');
                 }
             }
         }

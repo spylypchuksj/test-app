@@ -36,8 +36,8 @@
       "model": "test"
     },
     {
-      "id": "messagesconfident",
-      "name": "Messages-Confident",
+      "id": "messages",
+      "name": "Messages",
       "sourceScreenId": "app.messagesinbox.messagesconfident",
       "sourceAppId": "universaltemplates",
       "model": "messagesconfident"
