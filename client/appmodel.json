@@ -80,5 +80,10 @@
         "label": "Messages1"
       }
     }
+  },
+  "sp": {
+    "type": "object",
+    "comment": "",
+    "properties": {}
   }
 }
