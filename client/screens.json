@@ -46,7 +46,8 @@
       "id": "rest",
       "name": "rest",
       "sourceScreenId": "app.blank",
-      "sourceAppId": "_blank"
+      "sourceAppId": "_blank",
+      "model": "sp"
     }
   ],
   "sourceAppId": "_blank",
